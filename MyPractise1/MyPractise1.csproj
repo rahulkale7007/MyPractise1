@@ -1,0 +1,141 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{04810911-E174-4BDD-9849-7ABFEC729A2F}</ProjectGuid>
+    <OutputType>Exe</OutputType>
+    <RootNamespace>MyPractise1</RootNamespace>
+    <AssemblyName>MyPractise1</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup>
+    <StartupObject>
+    </StartupObject>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AbstractionDemo\AbstractClassDemo.cs" />
+    <Compile Include="AbstractionDemo\AbstractPropertyDemo.cs" />
+    <Compile Include="ArrayAssignment\ArrayReverse.cs" />
+    <Compile Include="ArrayAssignment\AseAndDescArray.cs" />
+    <Compile Include="ArrayAssignment\CopyOneArrayToAnother.cs" />
+    <Compile Include="ArrayAssignment\CountArrayElements.cs" />
+    <Compile Include="ArrayAssignment\DuplicateElementsInArray.cs" />
+    <Compile Include="ArrayAssignment\EvenOddElements.cs" />
+    <Compile Include="ArrayAssignment\MaxMinArray.cs" />
+    <Compile Include="ArrayAssignment\MergeArrayAscending.cs" />
+    <Compile Include="ArrayAssignment\PrintArrayElements.cs" />
+    <Compile Include="ArrayAssignment\SumOfArrayElements.cs" />
+    <Compile Include="ArrayAssignment\Duplicate2.cs" />
+    <Compile Include="ArrayOneDStudy\CopyArrayElements.cs" />
+    <Compile Include="ArrayOneDStudy\DuplicateElementsArray.cs" />
+    <Compile Include="ArrayOneDStudy\PrintElementsOfArray.cs" />
+    <Compile Include="ArrayOneDStudy\ReverseArray.cs" />
+    <Compile Include="ArrayOneDStudy\SumOfArrayElements.cs" />
+    <Compile Include="Event And Delegate\DelegateDemo1.cs" />
+    <Compile Include="Event And Delegate\MultiCastDelegateDemo.cs" />
+    <Compile Include="Event And Delegate\MultipleDelegate.cs" />
+    <Compile Include="Event And Delegate\SingleCastDelegate.cs" />
+    <Compile Include="GenericCollection\DictionaryDemo.cs" />
+    <Compile Include="GenericCollection\ListDemo.cs" />
+    <Compile Include="GenericCollection\QueueDemo.cs" />
+    <Compile Include="GenericCollection\SortedList.cs" />
+    <Compile Include="GenericCollection\StackDemo.cs" />
+    <Compile Include="InterFaceDemos\CustomListInterfaceDemo1.cs" />
+    <Compile Include="InterFaceDemos\IComparerInterfaceDemo.cs" />
+    <Compile Include="InterFaceDemos\NonGenericInterfaceDemo1.cs" />
+    <Compile Include="CollectionStudy\CustomListDemo.cs" />
+    <Compile Include="CollectionStudy\CustomListDemo2.cs" />
+    <Compile Include="CollectionStudy\ListDemo.cs" />
+    <Compile Include="CollectionStudy\ListUser.cs" />
+    <Compile Include="InterfaceStudy\Class1.cs" />
+    <Compile Include="InterfaceStudy\Explicit_Interface_Implementation.cs" />
+    <Compile Include="InterfaceStudy\InterfaceInheritanceDemo.cs" />
+    <Compile Include="KeywordDemo\ConstantKeywordDemo.cs" />
+    <Compile Include="KeywordDemo\IndexerDemo.cs" />
+    <Compile Include="KeywordDemo\ParamKeywordDemo.cs" />
+    <Compile Include="NonGenericCollectionDemos\ArrayListDemo.cs" />
+    <Compile Include="NonGenericCollectionDemos\HashTableDemo.cs" />
+    <Compile Include="NonGenericCollectionDemos\QueueDemo.cs" />
+    <Compile Include="NonGenericCollectionDemos\StackDemo.cs" />
+    <Compile Include="OopsStudy\ACAndAM.cs" />
+    <Compile Include="OopsStudy\ConstructorOverLoading.cs" />
+    <Compile Include="OopsStudy\ConstructorStudy.cs" />
+    <Compile Include="OopsStudy\GenericClassDemo.cs" />
+    <Compile Include="OopsStudy\GenericMethodDemo.cs" />
+    <Compile Include="OopsStudy\MethodHiding.cs" />
+    <Compile Include="OopsStudy\MethodOverridingDemo.cs" />
+    <Compile Include="OopsStudy\MultipleInheritanceDemo.cs" />
+    <Compile Include="OopsStudy\SealedClassDemo.cs" />
+    <Compile Include="OopsStudy\SealedMethodDemo.cs" />
+    <Compile Include="OopsStudy\SingleMultipleInheritance.cs" />
+    <Compile Include="Program.cs" />
+    <Compile Include="OopsStudy\Employees.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="StringStudyDemo\AscendingString.cs" />
+    <Compile Include="StringStudyDemo\CheckCharacterLowerOrUpper.cs" />
+    <Compile Include="StringStudyDemo\CountSplCharDigitAlphabets.cs" />
+    <Compile Include="StringStudyDemo\CountSubstring.cs" />
+    <Compile Include="StringStudyDemo\FindSubstringFromString.cs" />
+    <Compile Include="StringStudyDemo\FindVowelAndConsonent.cs" />
+    <Compile Include="StringStudyDemo\LowerCaseUpperCase.cs" />
+    <Compile Include="StringStudyDemo\StringCompare.cs" />
+    <Compile Include="StringStudyDemo\StringInput.cs" />
+    <Compile Include="StringStudyDemo\StringReverse.cs" />
+    <Compile Include="StringStudyDemo\StringSeperateDemo.cs" />
+    <Compile Include="StringStudyDemo\TotalWordsInStringDemo.cs" />
+    <Compile Include="StringStudy\CheckVowelOrString.cs" />
+    <Compile Include="StringStudy\Class1.cs" />
+    <Compile Include="StringStudy\Compare.cs" />
+    <Compile Include="StringStudy\CopyOneStringToAnother.cs" />
+    <Compile Include="StringStudy\CountAlphabetsDigitSpecialChar.cs" />
+    <Compile Include="StringStudy\CountTotalWordsInString.cs" />
+    <Compile Include="StringStudy\DuplicateWordsInString.cs" />
+    <Compile Include="StringStudy\LengthOfString.cs" />
+    <Compile Include="StringStudy\MaximumNumberOfCharacterFromString.cs" />
+    <Compile Include="StringStudy\StringReverse.cs" />
+    <Compile Include="StringStudy\StringToChar.cs" />
+    <Compile Include="StructStudy\AssignValuesToVariable1.cs" />
+    <Compile Include="StructStudy\ConstructorInStruct2.cs" />
+    <Compile Include="StructStudy\MethodInStruct.cs" />
+    <Compile Include="StructStudy\PropertyInStruct3.cs" />
+    <Compile Include="ZobinTestCode\CoPrimeNumber.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>
